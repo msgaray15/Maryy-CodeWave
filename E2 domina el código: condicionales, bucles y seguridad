@@ -1,0 +1,43 @@
+[Tema 1: Condicionales y Bucles]
+
+Ejemplo 1:
+
+```python
+edad = 25
+if edad >= 18:
+    print("Eres mayor de edad.")
+else:
+    print("Eres menor de edad.")
+```
+
+Ejemplo 2:
+
+```java
+for (int i = 1; i <= 5; i++) {
+    System.out.println("Número: " + i);
+}
+```
+
+[Tema 2: Funciones y Modularidad]
+
+Ejemplo:
+
+```python
+def suma(a, b):
+    return a + b
+
+resultado = suma(5, 3)
+print(resultado)  # Salida: 8
+```
+
+[Tema 3: Manejo de Excepciones]
+
+Ejemplo:
+
+```java
+try {
+    int resultado = 10 / 0;
+} catch (ArithmeticException e) {
+    System.out.println("Error: División por cero.");
+}
+```
